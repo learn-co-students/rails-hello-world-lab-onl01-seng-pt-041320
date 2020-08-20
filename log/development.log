@@ -902,3 +902,10 @@ rack (2.0.6) lib/rack/handler/webrick.rb:86:in `service'
   Rendering /home/snganyone1/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
   Rendered /home/snganyone1/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (62.6ms)
   Rendered /home/snganyone1/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (705.2ms)
+Started GET "/hello_world" for 127.0.0.1 at 2020-08-20 16:33:57 -0700
+Processing by MessageController#hello_world as HTML
+  Rendering actions/hello_world.html.erb within layouts/application
+  Rendered actions/hello_world.html.erb within layouts/application (7.6ms)
+Completed 200 OK in 1163ms (Views: 1143.5ms | ActiveRecord: 0.0ms)
+
+
